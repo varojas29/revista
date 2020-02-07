@@ -1,0 +1,50 @@
+.menu {
+
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    display:flex;
+    justify-content: space-between;
+    &__items {
+      a {
+      text-decoration: none;
+      text-transform: uppercase;
+      }
+    }
+    &__logo {
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &__nav {
+      display: inline-block;
+      text-align: right;
+    }
+}
+
+.menu__item-1 {
+  a {
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+}
+
+.menu_item-2 {
+display: inline-block;
+}
+.menu_item-3 {
+display: inline-block;
+}
+.menu_item-1 {
+display: inline-block;
+}
+
+.input-menu {
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .menu__item1 {
+    display: none;
+  }
+}
